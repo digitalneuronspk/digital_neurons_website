@@ -1,11 +1,588 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- awesone fonts css-->
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <!-- owl carousel css-->
+    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Digital Neurons</title>
+    <style>
+
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to Digital Neurons</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
+        <div class="container"><a class="navbar-brand"><img style=" mix-blend-mode: multiply;" src="images/logo/logo_side_name3.png" alt="logo" width="200"
+                    height="60"></a>
+            <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"><span
+                    class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span></button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                   <!--<li class="nav-item"><a class="nav-link" href="/pages/pricing.html">Pricing</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="https://wa.me/+923122646268"
+                        class="btn btn-outline-dark my-2 my-sm-0 mr-3 text-uppercase">Whatsapp</a>
+                </form>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- Popup -->
+    <!-- 
+    <div class="popup-overlay" id="popup"> 
+
+        <div class="popup">
+          <span class="" id="closePopup" >&times;</span>
+          <h2>Join Our JavaScript Bootcamp!</h2>
+          <p>Learn JavaScript from scratch and become a pro developer.</p>
+            <a href="./pages/lms/bootcamp.html">  <button id="popupBtn">Enroll Now</button></a>
+        </div>
+    </div>-->
+
+    <div class="container-fluid gtco-banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Our mission is to provide intelligent and impactful digital solutions that drive growth and
+                        success for our clients. </h2>
+                    <p>Digital Neurons: Your ultimate partner for innovative digital solutions, specializing in Web
+                        Development, Digital Marketing, Social Media Management, and more.</p>
+                    <a href="https://wa.me/+923122646268" target="_blank">Contact Us <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-6">
+                    <div class="card"><img class="card-img-top img-fluid" src="images/banner-img.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-feature" id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="cover">
+                        <div class="card">
+                            <svg class="back-bg" width="100%" viewBox="0 0 900 700"
+                                style="position:absolute; z-index: -1">
+                                <defs>
+                                    <linearGradient id="PSgrad_01" x1="64.279%" x2="0%" y1="76.604%" y2="0%">
+                                        <stop offset="0%" stop-color="rgb(1,230,248)" stop-opacity="1" />
+                                        <stop offset="100%" stop-color="rgb(29,62,222)" stop-opacity="1" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill-rule="evenodd" opacity="0.102" fill="url(#PSgrad_01)"
+                                    d="M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z" />
+                            </svg>
+                            <!-- *************-->
+
+                            <svg width="100%" viewBox="0 0 700 500">
+                                <clipPath id="clip-path">
+                                    <path
+                                        d="M89.479,0.180 L512.635,25.932 C568.395,29.326 603.115,76.927 590.357,129.078 L528.827,380.603 C518.688,422.048 472.661,448.814 427.190,443.300 L73.350,400.391 C32.374,395.422 -0.267,360.907 -0.002,322.064 L1.609,85.154 C1.938,36.786 40.481,-2.801 89.479,0.180 Z">
+                                    </path>
+                                </clipPath>
+                                <!-- xlink:href for modern browsers, src for IE8- -->
+                                <image clip-path="url(#clip-path)" xlink:href="images/learn-img.jpg" width="100%"
+                                    height="465" class="svg__image"></image>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5" id="about">
+                    <h2> About Us</h2>
+                    <p> Welcome to Digital Neurons, where innovation meets excellence. We are a dynamic team of
+                        professionals committed to delivering cutting-edge digital solutions tailored to your unique
+                        business needs. Whether you need a responsive website, impactful marketing campaigns, or
+                        data-driven insights, our expertise ensures your brand stays ahead in the digital landscape.
+                    </p>
+                    <p>
+                        <small>
+                            At Digital Neurons, we believe in transforming ideas into reality through creativity and
+                            technology. Our services encompass Web Development, Digital Marketing, Social Media
+                            Management, Graphics Design, Data Analysis, and Web Scraping. With a client-first approach,
+                            we ensure every project reflects your vision and drives measurable results.
+                        </small>
+                    </p>
+                    <a href="https://wa.me/+923122646268" target="_blank">Contact Us <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-features" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Our Services</h2>
+                    <p>At Digital Neurons, we provide a comprehensive range of digital solutions designed to elevate
+                        your business in today's competitive market. From crafting visually stunning websites to
+                        implementing impactful marketing strategies, our services are tailored to meet your specific
+                        needs.</p>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Graphics Design</li>
+                        <li>Digital Marketing</li>
+                        <li>Data Analysis</li>
+                        <li>Web Scrapping</li>
+                    </ul>
+                    <a href="pages/pricing.html" target="_blank">Pricing <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-8">
+                    <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
+                        <defs>
+                            <linearGradient id="PSgrad_02" x1="64.279%" x2="0%" y1="76.604%" y2="0%">
+                                <stop offset="0%" stop-color="rgb(1,230,248)" stop-opacity="1" />
+                                <stop offset="100%" stop-color="rgb(29,62,222)" stop-opacity="1" />
+                            </linearGradient>
+                        </defs>
+                        <path fill-rule="evenodd" opacity="0.102" fill="url(#PSgrad_02)"
+                            d="M801.878,3.146 L116.381,128.537 C26.052,145.060 -21.235,229.535 9.856,312.073 L159.806,710.157 C184.515,775.753 264.901,810.334 338.020,792.380 L907.021,652.668 C972.912,636.489 1019.383,573.766 1011.301,510.470 L962.013,124.412 C951.950,45.594 881.254,-11.373 801.878,3.146 Z" />
+                    </svg>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card text-center">
+                                <div class="oval"><img class="card-img-top" src="images/web-design.png" alt=""></div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Web Development</h3>
+                                    <p class="card-text">We craft responsive, user-friendly websites that reflect your
+                                        brand identity and engage your audience.</p>
+                                </div>
+                            </div>
+                            <div class="card text-center">
+                                <div class="oval"><img class="card-img-top" src="images/marketing.png" alt=""></div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Digital Marketing</h3>
+                                    <p class="card-text">Boost your online presence with data-driven strategies for SEO,
+                                        PPC, email marketing, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <div class="oval"><img class="card-img-top" src="images/seo.png" alt=""></div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Data Analysis</h3>
+                                    <p class="card-text">Turn data into actionable insights to optimize operations and
+                                        drive business growth.</p>
+                                </div>
+                            </div>
+                            <div class="card text-center">
+                                <div class="oval"><img class="card-img-top" src="images/graphics-design.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Graphics Design</h3>
+                                    <p class="card-text">Create stunning visuals, logos, and branding materials that
+                                        leave a lasting impression.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-numbers-block">
+        <div class="container">
+            <svg width="100%" viewBox="0 0 1600 400">
+                <defs>
+                    <linearGradient id="PSgrad_03" x1="80.279%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="rgb(1,230,248)" stop-opacity="1" />
+                        <stop offset="100%" stop-color="rgb(29,62,222)" stop-opacity="1" />
+
+                    </linearGradient>
+
+                </defs>
+                <!-- <clipPath id="clip-path3">
+
+                                      </clipPath> -->
+
+                <path fill-rule="evenodd" fill="url(#PSgrad_03)"
+                    d="M98.891,386.002 L1527.942,380.805 C1581.806,380.610 1599.093,335.367 1570.005,284.353 L1480.254,126.948 C1458.704,89.153 1408.314,59.820 1366.025,57.550 L298.504,0.261 C238.784,-2.944 166.619,25.419 138.312,70.265 L16.944,262.546 C-24.214,327.750 12.103,386.317 98.891,386.002 Z">
+                </path>
+
+                <clipPath id="ctm" fill="none">
+                    <path
+                        d="M98.891,386.002 L1527.942,380.805 C1581.806,380.610 1599.093,335.367 1570.005,284.353 L1480.254,126.948 C1458.704,89.153 1408.314,59.820 1366.025,57.550 L298.504,0.261 C238.784,-2.944 166.619,25.419 138.312,70.265 L16.944,262.546 C-24.214,327.750 12.103,386.317 98.891,386.002 Z">
+                    </path>
+                </clipPath>
+
+                <!-- xlink:href for modern browsers, src for IE8- -->
+                <image clip-path="url(#ctm)" xlink:href="images/word-map.png" height="800px" width="100%"
+                    class="svg__image">
+
+                </image>
+
+            </svg>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">05</h5>
+                            <p class="card-text">Active Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">10x</h5>
+                            <p class="card-text">Business Growth</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">02</h5>
+                            <p class="card-text">Completed Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">02</h5>
+                            <p class="card-text">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-testimonials">
+        <div class="container">
+            <h2>What our customers say about us.</h2>
+            <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/profile.png" alt="">
+                        <div class="card-body">
+                            <h5>Muhammad Hamza<br />
+                                <span>Raza Travel </span>
+                            </h5>
+                            <p class="card-text">"Digital Neurons has been instrumental in managing our Facebook Page with engaging content, timely responses, and strategic audience interactions. Their scheduling and analytics insights have boosted our reach and engagement. Highly recommended for effective Facebook marketing!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/profile.png" alt="">
+                        <div class="card-body">
+                            <h5>Synapse Academy<br />
+                                <span> SynapseSkills </span>
+                            </h5>
+                            <p class="card-text">"Digital Neurons provided exceptional data analysis services, turning complex data into valuable insights. Their expertise helped us make informed decisions, optimize strategies, and drive business growth. Highly recommended for data-driven success!"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/profile.png"alt="">
+                        <div class="card-body">
+                            <h5>Aana Brown<br />
+                                <span> Project Manager </span>
+                            </h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/customer3.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Aana Brown<br />
+                                <span> Project Manager </span>
+                            </h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-features-list">
+        <div class="container">
+            <div class="row">
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/quality-results.png" alt=""></div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Quality </h5>
+                        We are committed to delivering top-notch solutions that meet the highest industry standards,
+                        ensuring your satisfaction with every project. Excellence is at the core of everything we do.
+                    </div>
+                </div>
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/analytics.png" alt=""></div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Reliability
+                        </h5>
+                        Count on us to deliver consistent results. We strive to be a trusted partner for all your
+                        digital needs.
+                    </div>
+                </div>
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/affordable-pricing.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Affordable Pricing</h5>
+                        We offer competitive pricing without compromising on quality, ensuring you get the best value
+                        for your investment. Our solutions are designed to fit businesses of all sizes.
+                    </div>
+                </div>
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/easy-to-use.png" alt=""></div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Customization
+                        </h5>
+                        We tailor our services to meet your specific needs, ensuring solutions that are unique and
+                        aligned with your goals.
+                    </div>
+                </div>
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/free-support.png" alt=""></div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Free Support</h5>
+                        Our dedicated support team is always ready to assist you, providing timely and reliable help
+                        whenever you need it. We're here to ensure your success every step of the way.
+                    </div>
+                </div>
+                <div class="media col-md-6 col-lg-4">
+                    <div class="oval mr-4"><img class="align-self-start" src="images/effectively-increase.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="mb-0">Timely Deliver</h5>
+                        We understand the importance of deadlines and work efficiently to deliver high-quality results
+                        on time, every time.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gtco-logo-area">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col"><img src="images/logo1.png" class="img-fluid" alt=""></div>
+                <div class="col"><img src="images/logo2.png" class="img-fluid" alt=""></div>
+                <div class="col"><img src="images/logo3.png" class="img-fluid" alt=""></div>
+                <div class="col"><img src="images/logo4.png" class="img-fluid" alt=""></div>
+                <div class="col"><img src="images/logo5.png" class="img-fluid" alt=""></div>
+            </div>
+        </div> -->
+    </div>
+    <!-- <div class="container-fluid gtco-news" id="news">
+        <div class="container">
+            <h2>Latest News & Articles</h2>
+            <div class="owl-carousel owl-carousel2 owl-theme">
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news1.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5>Aenean ultrices lorem quis blandit
+                                tempor urabitur accumsan. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news2.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5> Nam vel nisi eget odio pulvinar
+                                iaculis. Fusce aliquet. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news3.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5>Morbi faucibus odio sollicitudin
+                                risus scelerisque dignissim. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news1.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5>Aenean ultrices lorem quis blandit
+                                tempor urabitur accumsan. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news2.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5> Nam vel nisi eget odio pulvinar
+                                iaculis. Fusce aliquet. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/news3.jpg" alt="">
+                        <div class="card-body text-left pr-0 pl-0">
+                            <h5>Morbi faucibus odio sollicitudin
+                                risus scelerisque dignissim. </h5>
+                            <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat
+                                augue,
+                                et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus
+                                risus
+                                . . . </p>
+                            <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <footer class="container-fluid" id="gtco-footer">
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col">
+                    <div style="display: flex; justify-content: center">
+                        <iframe
+                          src="https://docs.google.com/forms/d/e/1FAIpQLSdKqjBD02s8hLOixOD9zVbPRpZZhsm8Zu4H_3vfZ9gAEZWUZA/viewform?embedded=true"
+                          width="640"
+                          height="840"
+                          frameborder="0"
+                          marginheight="0"
+                          marginwidth="0"
+                          style="border: none;"
+                        >Loading…</iframe>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row " style="padding: 80px 0px 0px 0px;">
+                <div class="col-lg-6" id="footLogo" aria-colspan="footLog">
+                    <!-- <form action="https://formsubmit.co/9c108089ecbc09e802a12dc6a41e5f98" method="POST">
+                        <h4> Contact Us </h4>
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                        <textarea class="form-control" placeholder="Message" required></textarea>
+                        <button type="submit"> <a class="submit-button">send<i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                        </button>
+                    </form> -->
+
+                    <img src="images/logo/logo_side_name3.png" alt="logo" class="footerLogo">
+
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <h4>Company</h4>
+                            <ul class="nav flex-column company-nav">
+                                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                            <!-- <h4 class="mt-5">Fllow Us</h4>
+                            <ul class="nav follow-us-nav">
+                                <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
+                                            aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
+                                            aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
+                                            aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
+                                            aria-hidden="true"></i></a></li>
+                            </ul> -->
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h4>Contact Us</h4>
+                                <p >digitalneurons.pk@gmail.com</p>
+                                <p>+92 3122646268</p>
+                                <p>+92 307 2699892</p>
+                                <p>+92 311 2766708</p>  
+                        </div>
+                        <div class="col-12">
+                            <p>&copy; 2025. All Rights Reserved. Design by <a href="#">DigitalNeurons</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script>
+        // Show the popup when the page loads
+        window.addEventListener('load', function() {
+          const popup = document.getElementById('popup');
+          popup.style.display = 'flex';
+        });
+    
+        // Redirect to the bootcamp page when the button is clicked
+        const popupBtn = document.getElementById('popupBtn');
+        popupBtn.addEventListener('click', function() {
+          window.location.href = '/bootcamp'; // Change '/bootcamp' to your bootcamp page URL
+        });
+    
+        // Close the popup when the close button is clicked
+        const closePopup = document.getElementById('closePopup');
+        closePopup.addEventListener('click', function() {
+          const popup = document.getElementById('popup');
+          popup.style.display = 'none';
+        });
+      </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js-->
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
